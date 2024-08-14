@@ -155,6 +155,7 @@ def sentOtp(phone, amount):
                     print("\n\n\n")
                     input(f"                {Fore.RED}Press {Style.RESET_ALL}{Fore.GREEN}Enter {Style.RESET_ALL}{Fore.YELLOW}For {Style.RESET_ALL}{Fore.CYAN}Main {Style.RESET_ALL}{Fore.GREEN}Menu{Style.RESET_ALL}")
                     os.system('clear')
+                    os.system('python Ahesan-Bomber.py')
                     return
             except Exception as e:
                 if not internet_lost:  # Print the message only once when internet connection is lost
