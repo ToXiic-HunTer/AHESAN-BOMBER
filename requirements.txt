@@ -1,9 +1,4 @@
 requests
-os
-sys
-time
 colorama
 termcolor
 pyfiglet
-random
-concurrent.futures
