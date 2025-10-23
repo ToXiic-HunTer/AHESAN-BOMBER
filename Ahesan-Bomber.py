@@ -162,6 +162,8 @@ def sentOtp(phone, amount):
                     print(colored("\nYour Connection is Aborted", 'red'))
                     internet_lost = True
                 time.sleep(1)  # Wait for 1 second
+# ===== LOOP ENABLED MAIN EXECUTION =====
 if __name__ == "__main__":
-    main()
-    run()
+    while True:
+        main()
+        run()
